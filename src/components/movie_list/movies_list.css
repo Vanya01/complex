@@ -1,0 +1,7 @@
+.main_content {
+    flex-wrap: wrap;
+}
+
+.main_content {
+    justify-content: space-between;
+}

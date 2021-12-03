@@ -2,6 +2,29 @@
   text-align: center;
 }
 
+
+.change_theme{
+  position: absolute;
+  top: 20%;
+  left: 90%;
+  padding: 20px;
+  border-radius:10%;
+  border: none;
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+
+.change_theme:hover{
+  cursor: pointer;
+  background-color: white;
+  transition: 700ms;
+  color: #282c34;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

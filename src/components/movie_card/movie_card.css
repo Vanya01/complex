@@ -1,0 +1,100 @@
+.out_wrap_card {
+    flex-wrap: wrap;
+    padding: 150px 150px 30px 150px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+
+.wrap_one {
+    padding: 0;
+}
+
+.wrap_genres {
+    height: 40px;
+    padding: 10px 0 20px 0;
+}
+
+.wrap_text > h3 {
+    height: 50px;
+}
+
+.wrap_text > p {
+    height: 250px;
+    overflow: hidden;
+}
+
+.wrap_cards {
+    word-wrap: break-word;
+    padding: 10px;
+    width: 220px;
+    margin: 0 10px 20px 0;
+}
+
+.wrap_cards > h3 {
+    text-align: center;
+}
+
+.wrap_cards > p {
+    font-weight: bold;
+
+}
+
+.img_card > img {
+    width: 220px;
+}
+
+.img_card {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.img_card:hover {
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
+.img_card:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    content: '';
+    opacity: 0;
+}
+
+.img_card:hover:before {
+    opacity: 1;
+    transition: 500ms;
+}
+
+
+.stars_and_fb {
+    justify-content: space-between;
+
+}
+
+.wrap_genres {
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    font-weight: unset;
+}
+
+.wrap_genres > img {
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+
+.pagination {
+
+    padding-bottom: 100px;
+    padding-left: 40%;
+}

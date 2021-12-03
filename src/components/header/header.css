@@ -1,0 +1,54 @@
+.d-flex {
+    display: flex;
+}
+
+.main_header {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
+.header {
+    background-color: royalblue;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header:hover {
+    cursor: pointer;
+}
+
+
+.top_input {
+    width: 440px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: alias;
+}
+
+.user {
+    text-align: center;
+}
+
+.user > img {
+    width: 40%;
+    text-align: center;
+}
+
+.user > p {
+    font-weight: bold;
+
+}
+
+.change_btn {
+    box-sizing: inherit;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid darkblue;
+    width: 100px;
+    height: 30px;
+    color: mediumblue;
+    cursor: pointer;
+    background: black;
+}
